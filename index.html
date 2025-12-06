@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fixed Navbar -->
+    <header class="navbar">
+        <div class="nav-logo">Niladri Dey</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="images/profile.png" alt="Profile" class="hero-profile">
+            <h1>Hi, I am Niladri Dey</h1>
+            <h2>First-Year Engineering Student</h2>
+            <p>Aspiring Full-Stack Developer | Passionate about Web & Problem Solving</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary-btn">Know More</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About + Profile Cards Section -->
+    <section id="about" class="section about-section">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+            I am a first-year engineering student building my skills in programming and web development,
+            and preparing for future internships.
+        </p>
+
+        <div class="card-container">
+            <!-- Card 1: Education -->
+            <div class="card">
+                <div class="card-icon">🎓</div>
+                <h3>Education</h3>
+                <p>
+                    College: Netaji Subhash Engineering College<br>
+                    Branch: Computer Science & Engineering<br>
+                    Year: 1st Year (2025–2029)
+                </p>
+            </div>
+
+            <!-- Card 2: Skills -->
+            <div class="card">
+                <div class="card-icon">🛠️</div>
+                <h3>Skills</h3>
+                <p>
+                    • HTML & CSS Basics<br>
+                    • C / C++ / Python (Programming Basics)<br>
+                    • Problem Solving & Logical Thinking
+                </p>
+            </div>
+
+            <!-- Card 3: Career Goal -->
+            <div class="card">
+                <div class="card-icon">🚀</div>
+                <h3>Career Goal</h3>
+                <p>
+                    I want to become a skilled software engineer, working on modern web applications
+                    and scalable systems, and contributing to real-world projects and startups.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">
+            Here are some of the technologies and tools I am currently learning and practicing.
+        </p>
+
+        <div class="skill-list">
+            <div class="skill-item">
+                <span>HTML</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span>CSS</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span>Programming Basics (C / Python)</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span>Problem Solving</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+            Feel free to contact me for internships, projects, or collaborations.
+        </p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><strong>Email:</strong> niladridey455@gmail.com</p>
+                <p><strong>Phone:</strong> +91-9474073374</p>
+                <p><strong>Location:</strong> Kolaghat, India</p>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Niladri Dey" required>
+                <input type="email" placeholder="niladridey455@gmail.com" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p><small>&copy; 2025 Niladri Dey • First-Year Engineering Student</small></p>
+    </footer>
+
+</body>
+</html>
